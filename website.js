@@ -12,7 +12,7 @@ function changeAngel(){
     document.getElementById("chrisDescription").style.display = "none"
     document.getElementById("Luke1").src = "purple.jpg"
     document.getElementById("lukeDescription").style.display = "none"
-    document.getElementById("An1").src = "purple.jpg"
+    document.getElementById("An1").src = "master1.jfif"
     document.getElementById("anDescription").style.display = "none"
   }
 }
@@ -31,7 +31,7 @@ function changeLogan(){
     document.getElementById("chrisDescription").style.display = "none"
     document.getElementById("Luke1").src = "purple.jpg"
     document.getElementById("lukeDescription").style.display = "none"
-    document.getElementById("An1").src = "purple.jpg"
+    document.getElementById("An1").src = "master1.jfif"
     document.getElementById("anDescription").style.display = "none"
   }
 }
@@ -50,7 +50,7 @@ function changeChris(){
     document.getElementById("loganDescription").style.display = "none"
     document.getElementById("Luke1").src = "purple.jpg"
     document.getElementById("lukeDescription").style.display = "none"
-    document.getElementById("An1").src = "purple.jpg"
+    document.getElementById("An1").src = "master1.jfif"
     document.getElementById("anDescription").style.display = "none"
   }
 }
@@ -69,18 +69,18 @@ function changeLuke(){
     document.getElementById("loganDescription").style.display = "none"
     document.getElementById("Chris1").src = "red.jpg"
     document.getElementById("chrisDescription").style.display = "none"
-    document.getElementById("An1").src = "purple.jpg"
+    document.getElementById("An1").src = "master1.jfif"
     document.getElementById("anDescription").style.display = "none"
   }
 }
 
 function changeAn(){
   var picture = document.getElementById("An1")
-  if(picture.src.match("purple1")){
-    document.getElementById("An1").src = "purple.jpg"
+  if(picture.src.match("master2.webp")){
+    document.getElementById("An1").src = "master1.jfif"
     document.getElementById("anDescription").style.display = "none"
   }else {
-    document.getElementById("An1").src = "purple1.jpg"
+    document.getElementById("An1").src = "master2.webp"
     document.getElementById("anDescription").style.display = "inline"
     document.getElementById("Angel1").src = "blue.jpg"
     document.getElementById("angelDescription").style.display = "none"
